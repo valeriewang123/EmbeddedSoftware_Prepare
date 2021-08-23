@@ -1,6 +1,6 @@
 //
 // Created by valerie on 2021/8/23.
-// determine if a string has all unique characters.
+// isUnique: determine if a string has all unique characters.
 //
 #include "../leetcode.h"
 #include "string"
