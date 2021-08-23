@@ -5,7 +5,7 @@
 #include "leetcode.h"
 #include "string"
 using namespace std;
-
+//test
 bool isUnique(string str){
     static int character[128] = {}; // to zero initialize, ascii table includes 128 different chars
     if(str.length() == 0)
