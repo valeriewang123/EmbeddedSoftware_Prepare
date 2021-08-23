@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/valerie/CLionProjects/Leetcode/IsUnique.cpp" "/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles/Leetcode.dir/IsUnique.cpp.o"
   "/Users/valerie/CLionProjects/Leetcode/main.cpp" "/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles/Leetcode.dir/main.cpp.o"
+  "/Users/valerie/CLionProjects/Leetcode/solutions/IsUnique.cpp" "/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o"
+  "/Users/valerie/CLionProjects/Leetcode/solutions/IsomorphicStr.cpp" "/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

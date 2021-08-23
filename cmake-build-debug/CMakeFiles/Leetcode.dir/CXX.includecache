@@ -10,9 +10,9 @@
 string
 /Users/valerie/CLionProjects/Leetcode/string
 
-/Users/valerie/CLionProjects/Leetcode/main.cpp
-iostream
--
-leetcode.h
+/Users/valerie/CLionProjects/Leetcode/solutions/IsomorphicStr.cpp
+../leetcode.h
 /Users/valerie/CLionProjects/Leetcode/leetcode.h
+string
+/Users/valerie/CLionProjects/Leetcode/solutions/string
 

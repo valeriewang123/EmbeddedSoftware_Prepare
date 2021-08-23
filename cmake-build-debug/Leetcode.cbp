@@ -78,13 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/valerie/CLionProjects/Leetcode/IsUnique.cpp">
-			<Option target="Leetcode"/>
-		</Unit>
 		<Unit filename="/Users/valerie/CLionProjects/Leetcode/leetcode.h">
 			<Option target="Leetcode"/>
 		</Unit>
 		<Unit filename="/Users/valerie/CLionProjects/Leetcode/main.cpp">
+			<Option target="Leetcode"/>
+		</Unit>
+		<Unit filename="/Users/valerie/CLionProjects/Leetcode/solutions/IsUnique.cpp">
+			<Option target="Leetcode"/>
+		</Unit>
+		<Unit filename="/Users/valerie/CLionProjects/Leetcode/solutions/IsomorphicStr.cpp">
 			<Option target="Leetcode"/>
 		</Unit>
 		<Unit filename="/Users/valerie/CLionProjects/Leetcode/CMakeLists.txt">

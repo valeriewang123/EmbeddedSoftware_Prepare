@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Leetcode.dir/IsUnique.cpp.o"
   "CMakeFiles/Leetcode.dir/main.cpp.o"
+  "CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o"
+  "CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o"
   "Leetcode"
   "Leetcode.pdb"
 )

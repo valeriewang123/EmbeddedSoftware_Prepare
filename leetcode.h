@@ -9,5 +9,9 @@
 using namespace std;
 
 bool isUnique(string);
+bool S_isUniqueChars(string);
+
+bool Isomorphic (string str1, string str2);
+
 
 #endif //LEETCODE_LEETCODE_H

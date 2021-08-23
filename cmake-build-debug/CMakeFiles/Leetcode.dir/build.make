@@ -90,32 +90,47 @@ CMakeFiles/Leetcode.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Leetcode.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/valerie/CLionProjects/Leetcode/main.cpp -o CMakeFiles/Leetcode.dir/main.cpp.s
 
-CMakeFiles/Leetcode.dir/IsUnique.cpp.o: CMakeFiles/Leetcode.dir/flags.make
-CMakeFiles/Leetcode.dir/IsUnique.cpp.o: ../IsUnique.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Leetcode.dir/IsUnique.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Leetcode.dir/IsUnique.cpp.o -c /Users/valerie/CLionProjects/Leetcode/IsUnique.cpp
+CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o: CMakeFiles/Leetcode.dir/flags.make
+CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o: ../solutions/IsUnique.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o -c /Users/valerie/CLionProjects/Leetcode/solutions/IsUnique.cpp
 
-CMakeFiles/Leetcode.dir/IsUnique.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Leetcode.dir/IsUnique.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/valerie/CLionProjects/Leetcode/IsUnique.cpp > CMakeFiles/Leetcode.dir/IsUnique.cpp.i
+CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/valerie/CLionProjects/Leetcode/solutions/IsUnique.cpp > CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.i
 
-CMakeFiles/Leetcode.dir/IsUnique.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Leetcode.dir/IsUnique.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/valerie/CLionProjects/Leetcode/IsUnique.cpp -o CMakeFiles/Leetcode.dir/IsUnique.cpp.s
+CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/valerie/CLionProjects/Leetcode/solutions/IsUnique.cpp -o CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.s
+
+CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o: CMakeFiles/Leetcode.dir/flags.make
+CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o: ../solutions/IsomorphicStr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o -c /Users/valerie/CLionProjects/Leetcode/solutions/IsomorphicStr.cpp
+
+CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/valerie/CLionProjects/Leetcode/solutions/IsomorphicStr.cpp > CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.i
+
+CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/valerie/CLionProjects/Leetcode/solutions/IsomorphicStr.cpp -o CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.s
 
 # Object files for target Leetcode
 Leetcode_OBJECTS = \
 "CMakeFiles/Leetcode.dir/main.cpp.o" \
-"CMakeFiles/Leetcode.dir/IsUnique.cpp.o"
+"CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o" \
+"CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o"
 
 # External object files for target Leetcode
 Leetcode_EXTERNAL_OBJECTS =
 
 Leetcode: CMakeFiles/Leetcode.dir/main.cpp.o
-Leetcode: CMakeFiles/Leetcode.dir/IsUnique.cpp.o
+Leetcode: CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o
+Leetcode: CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o
 Leetcode: CMakeFiles/Leetcode.dir/build.make
 Leetcode: CMakeFiles/Leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/valerie/CLionProjects/Leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Leetcode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Leetcode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

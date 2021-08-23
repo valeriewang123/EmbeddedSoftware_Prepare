@@ -2,10 +2,10 @@
 // Created by valerie on 2021/8/23.
 // determine if a string has all unique characters.
 //
-#include "leetcode.h"
+#include "../leetcode.h"
 #include "string"
 using namespace std;
-//test
+
 bool isUnique(string str){
     static int character[128] = {}; // to zero initialize, ascii table includes 128 different chars
     if(str.length() == 0)
@@ -22,5 +22,18 @@ bool isUnique(string str){
     }
     else
         return false;
+}
 
+bool S_isUniqueChars(string str){
+    if(str.length() > 128)
+        return false;
+    bool char_set[128] ={};
+    for(int i = 0; i< str.length(); i++) {
+        int val = str.at(i);
+        if (char_set[val])
+            return false;
+        else
+            char_set[val] = true;
+    }
+    return true;
 }

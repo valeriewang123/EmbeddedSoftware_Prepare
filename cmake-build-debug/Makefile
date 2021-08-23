@@ -143,33 +143,6 @@ Leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/build
 .PHONY : Leetcode/fast
 
-IsUnique.o: IsUnique.cpp.o
-
-.PHONY : IsUnique.o
-
-# target to build an object file
-IsUnique.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/IsUnique.cpp.o
-.PHONY : IsUnique.cpp.o
-
-IsUnique.i: IsUnique.cpp.i
-
-.PHONY : IsUnique.i
-
-# target to preprocess a source file
-IsUnique.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/IsUnique.cpp.i
-.PHONY : IsUnique.cpp.i
-
-IsUnique.s: IsUnique.cpp.s
-
-.PHONY : IsUnique.s
-
-# target to generate assembly for a file
-IsUnique.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/IsUnique.cpp.s
-.PHONY : IsUnique.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -197,6 +170,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+solutions/IsUnique.o: solutions/IsUnique.cpp.o
+
+.PHONY : solutions/IsUnique.o
+
+# target to build an object file
+solutions/IsUnique.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.o
+.PHONY : solutions/IsUnique.cpp.o
+
+solutions/IsUnique.i: solutions/IsUnique.cpp.i
+
+.PHONY : solutions/IsUnique.i
+
+# target to preprocess a source file
+solutions/IsUnique.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.i
+.PHONY : solutions/IsUnique.cpp.i
+
+solutions/IsUnique.s: solutions/IsUnique.cpp.s
+
+.PHONY : solutions/IsUnique.s
+
+# target to generate assembly for a file
+solutions/IsUnique.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/solutions/IsUnique.cpp.s
+.PHONY : solutions/IsUnique.cpp.s
+
+solutions/IsomorphicStr.o: solutions/IsomorphicStr.cpp.o
+
+.PHONY : solutions/IsomorphicStr.o
+
+# target to build an object file
+solutions/IsomorphicStr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.o
+.PHONY : solutions/IsomorphicStr.cpp.o
+
+solutions/IsomorphicStr.i: solutions/IsomorphicStr.cpp.i
+
+.PHONY : solutions/IsomorphicStr.i
+
+# target to preprocess a source file
+solutions/IsomorphicStr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.i
+.PHONY : solutions/IsomorphicStr.cpp.i
+
+solutions/IsomorphicStr.s: solutions/IsomorphicStr.cpp.s
+
+.PHONY : solutions/IsomorphicStr.s
+
+# target to generate assembly for a file
+solutions/IsomorphicStr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/solutions/IsomorphicStr.cpp.s
+.PHONY : solutions/IsomorphicStr.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,12 +233,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Leetcode"
-	@echo "... IsUnique.o"
-	@echo "... IsUnique.i"
-	@echo "... IsUnique.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... solutions/IsUnique.o"
+	@echo "... solutions/IsUnique.i"
+	@echo "... solutions/IsUnique.s"
+	@echo "... solutions/IsomorphicStr.o"
+	@echo "... solutions/IsomorphicStr.i"
+	@echo "... solutions/IsomorphicStr.s"
 .PHONY : help
 
 
