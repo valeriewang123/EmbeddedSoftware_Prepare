@@ -84,10 +84,16 @@
 		<Unit filename="/Users/valerie/CLionProjects/Leetcode/main.cpp">
 			<Option target="Leetcode"/>
 		</Unit>
+		<Unit filename="/Users/valerie/CLionProjects/Leetcode/solutions/IsIncludeInRotate.cpp">
+			<Option target="Leetcode"/>
+		</Unit>
 		<Unit filename="/Users/valerie/CLionProjects/Leetcode/solutions/IsUnique.cpp">
 			<Option target="Leetcode"/>
 		</Unit>
 		<Unit filename="/Users/valerie/CLionProjects/Leetcode/solutions/IsomorphicStr.cpp">
+			<Option target="Leetcode"/>
+		</Unit>
+		<Unit filename="/Users/valerie/CLionProjects/Leetcode/solutions/PalindromeNumber.cpp">
 			<Option target="Leetcode"/>
 		</Unit>
 		<Unit filename="/Users/valerie/CLionProjects/Leetcode/CMakeLists.txt">

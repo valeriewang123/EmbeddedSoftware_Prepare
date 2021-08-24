@@ -6,7 +6,7 @@
 #include "string"
 using namespace std;
 
-bool Isomorphic (string str1, string str2){
+bool isomorphic (string str1, string str2){
  int lastIndexChar1[128] = {};
  int lastIndexChar2[128] = {};
  for(int i = 0; i < str1.length(); i++){

@@ -17,4 +17,13 @@ This repository is a private resources which is prepared for Embedded software i
 2. array - Isomorphic Strings
     - idea: record the last position of each char. So int[128] is enough.
     
-
+3. array - isIncludeInRotate (easy)
+    - idea: first rotate, for each rotation, check if includes
+      - ifInclude() use double for loop, O(N^2)
+      - str.back() get the last element of string
+    
+4. array - PalindromeNumber (without to string, medium)
+    - idea: 
+      - store number on each position to an int array
+      - check if it is palindrome
+      - use of pow(a,b) and log10() from math.h
